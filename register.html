@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Page</title>
+  </head>
+  <body>
+    <div>
+      <a href="index.html">Back</a>
+      <form method="GET">
+        First Name: <input type="text" name="firstname" required /><br />
+        Last Name: <input type="text" name="lastname" required /><br />
+        Birthday: <input type="date" name="birthday" /><br />
+        Email: <input type="email" name="email" required /> <br />
+        Password:<input type="password" name="password" min="5" required />
+        <br />
+        Gender:<br />
+        Male<input type="radio" name="gender" value="male" /><br />
+        Female<input type="radio" name="gender" value="female" /><br />
+        Other<input type="radio" name="gender" value="other" /><br />
+        Pets: <br />
+        Cat<input type="checkbox" name="cat" /><br />
+        Dog<input type="checkbox" name="dog" /><br />
+        Cars:
+        <select name="cars">
+          <option value="audi">Audi</option>
+          <option value="volvo">Volvo</option></select
+        ><br />
+        <input type="submit" value="Register" /> <br />
+        <input type="reset" />
+      </form>
+    </div>
+  </body>
+</html>
+
+?firstname=Allan&lastname=Vargas&birthday=2020-12-30&email=almulroy%40gmail.com&password=1234&gender=male&cat=on&dog=on&cars=volvo

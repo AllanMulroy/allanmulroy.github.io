@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100%;
+  background: url("snowbg1.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+  border: 1px solid grey;
+}
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+/* header nav ul li */
+li {
+  display: inline-block;
+}
+#img1 {
+  float: left;
+  border-bottom: 1px solid white;
+  border-right: 1px solid grey;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
+#img2 {
+  float: right;
+  border-bottom: 1px solid white;
+  border-right: 1px solid grey;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
+section {
+  text-align: center;
+}
+section p {
+  line-height: 50px;
+  color: white;
+  font-size: 25px;
+  font-style: italic;
+}
+span {
+  font-size: 2em;
+}
+h4 {
+  text-align: center;
+  font-size: 3em;
+  border-bottom: 1px solid black;
+  border-right: 1px solid white;
+  width: 400px;
+  box-shadow: 3px 3px 4px #888888;
+  margin-bottom: 10px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img {
+  width: 200px;
+  margin: 5px;
+  border-bottom: 1px solid white;
+  border-right: 1px solid grey;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  transition: all 1s;
+}
+img:hover {
+  transform: scale(1.1);
+}
+.button {
+  text-align: center;
+}
+footer {
+  clear: both;
+  border: 1px solid grey;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+}
